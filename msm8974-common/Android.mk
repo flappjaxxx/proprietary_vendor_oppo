@@ -71,16 +71,6 @@ LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := QuickBoot
-LOCAL_MODULE_OWNER := oppo
-LOCAL_SRC_FILES := proprietary/app/QuickBoot.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := platform
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location
 LOCAL_MODULE_OWNER := oppo
 LOCAL_SRC_FILES := proprietary/app/com.qualcomm.location.apk
